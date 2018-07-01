@@ -1,0 +1,14 @@
+{
+  "name": "green-apple",
+  "version": "1.0.0",
+  "description": "Green Apple Clinic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eederz",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
