@@ -1,9 +1,41 @@
-doctype html
-html(lang="es")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Green Apple | Clínica Dental
-    body
-        h1 Bienvenido
+include partials/header-index
+body
+    header
+        include partials/navbar
+    include partials/sub-navbar
+
+    .container
+        .row
+            .promo-block.col-xs-12
+                div
+                    h1 Promociones
+                div.promo.col-xs-12.hidden-sm.hidden-md.hidden-lg
+                    h4.black-apple Resinas dentales de máxima calidad 3M 
+                    h4.green-apple $600 MXN a $400 MXN 
+                div.promo.col-xs-12.hidden-sm.hidden-md.hidden-lg
+                    h4.black-apple Resinas dentales de máxima calidad 3M 
+                    h4.green-apple $600 MXN a $400 MXN
+
+                
+
+                div.promo.col-sm-12.hidden-xs
+                    h2 Resinas dentales de máxima calidad 3M 
+                    h2.green-apple $600 MXN a $400 MXN 
+                div.promo.col-sm-12.hidden-xs
+                    h2 Resinas dentales de máxima calidad 3M 
+                    h2.green-apple $600 MXN a $400 MXN
+                   
+                div
+                    img(src="../images/promo-lady.jpg", alt="")
+
+               
+
+
+
+    
+
+
+
+
+
+include partials/scripts-index
